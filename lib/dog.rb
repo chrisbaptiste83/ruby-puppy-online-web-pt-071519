@@ -16,8 +16,11 @@ class Dog
 
   def self.print_all
   
-   @@all.map do |name| puts "name" end
- end 
+   @@all.map do |name| puts "name" 
+   end
+   
+ end
+ 
  
  def save 
    @@all << self
