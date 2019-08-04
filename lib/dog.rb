@@ -10,6 +10,6 @@ class Dog
     end 
   
 def self.clear_all
-  @@all.delete_at(0..-1)
+  @@all.clear
 end 
 end
